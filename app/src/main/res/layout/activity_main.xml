@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:background="@drawable/login_background"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:text="Cloneplanets Design"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="27sp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/glight"
+        />
+
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+      android:background="@drawable/round"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/glight"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_marginTop="20dp"
+    >
+
+
+
+
+        <EditText
+            android:id="@+id/edtEmailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint=" Your Email"
+android:drawableLeft="@drawable/username"
+            android:textColor="#fff"
+            android:drawablePadding="10dp"
+            android:textColorHint="#556A77"
+            android:backgroundTint="@android:color/white"
+            />
+
+
+
+
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint=" Your Password"
+        android:textColor="#fff"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/key"
+        android:textColorHint="#556A77"
+        android:inputType="textPassword"
+        android:backgroundTint="@android:color/white"
+        />
+
+
+
+
+
+</LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txt_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="      Login      "
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/semiround"
+        />
+</LinearLayout>
